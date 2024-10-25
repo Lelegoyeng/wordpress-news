@@ -1,0 +1,127 @@
+/*
+ * Plugin Name: Newkarma Core
+ * Plugin URI: http://idtheme.com
+ * Author: Gian Mokhammad R
+ * Author URI: http://gianmr.com
+ */
+
+/* General */
+.clearfix:before,
+.clearfix:after {content: " ";display: table;}
+.clearfix:after {clear: both;}
+.pull-left {float: left !important;}
+.pull-right {float: right !important;}
+
+/* All Widget */
+.newkarma-core-form-widget .intro-text {font-size: 14px;}
+.newkarma-core-form-widget .spam-text {font-size: 12px;font-style: italic;text-align: center;}
+.newkarma-core-form-widget form input {margin-right: 10px;margin-bottom: 10px;}
+.newkarma-core-form-widget.force-100 form input {width: 100%;margin-right: 0;}
+.newkarma-core-form-widget form input[type="submit"] {background-color: #2c3e50;border-color: #2c3e50;color: #ffffff;}
+.newkarma-core-form-widget form input[type="submit"]:hover {opacity: 0.9;}
+@media (max-width:767px) {
+	.newkarma-core-form-widget form input {width: 100%;margin-bottom: 10px;margin-right: 0;}
+}
+
+/* Related post */
+.newkarma-core-related-post {
+	margin-bottom: 15px;
+}
+.gmr-list-related ul,
+.gmr-gallery-related ul {position: relative;margin-left: -7.5px;margin-right: -7.5px;padding: 0;display: flex;flex-wrap: wrap;}
+.gmr-list-related ul li,
+.gmr-gallery-related ul li{font-size: 13px;word-wrap: break-word;flex: 0 0 auto;width: 33.33333334%;position: relative;min-height: 1px;padding-left: 7.5px;padding-right: 7.5px;margin-bottom: 25px;overflow: hidden;}
+.gmr-list-related ul li a,
+.gmr-gallery-related ul li a {font-weight: 700;}
+.gmr-infinite-selector.gmr-related-infinite #gmr-main-load .other-content-thumbnail,
+.gmr-gallery-related ul li .other-content-thumbnail {margin-bottom: 5px;display:block;}
+.gmr-infinite-selector.gmr-related-infinite img,
+.gmr-gallery-related ul li img {width:100%;max-width: 100%;height: auto;}
+.gmr-list-related ul li{width:50%;}
+@media only screen and (max-width: 480px) {
+	.gmr-gallery-related ul li {width:50%;}
+}
+
+div.related-title-first {margin-top: 10px; margin-bottom: 5px;}
+.gmr-infinite-selector.gmr-related-infinite #gmr-main-load{position:relative;padding:0;margin:0 -7.5px;display: flex;flex-wrap: wrap;}
+.gmr-infinite-selector.gmr-related-infinite #gmr-main-load .item-infinite{margin:0 0 15px;padding:0 7.5px 15px;word-wrap: break-word;flex: 0 0 auto;width: 33.33333334%;overflow: hidden;}
+h4.infinite-related-title {
+	font-size:13px;
+	line-height: 130%;
+	margin-bottom: 0;
+}
+@media only screen and (max-width: 767px) {
+	.gmr-infinite-selector.gmr-related-infinite #gmr-main-load .item-infinite {width:50%;}
+}
+
+.breadcrumbs {padding: 0;font-size:13px;}
+.breadcrumbs .separator{padding-left: 3px;padding-right: 3px;}
+
+.newkarma-core-center-ads {text-align: center;}
+.newkarma-core-center-right {text-align: right;}
+
+.newkarma-core-topbanner {margin-left: auto;max-width: 728px;width: 100%;}
+@media (max-width: 1200px) {
+	.newkarma-core-topbanner {
+		text-align: center;
+		display: block !important;
+		float: none !important;
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+.gmr-between-post-banner {text-align: center;}
+
+.newkarma-core-before-dontmiss {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Banner */
+.newkarma-core-banner-secondpost,
+.newkarma-core-topbanner-aftermenu{margin-bottom: 15px;text-align: center;}
+.newkarma-core-footerbanner{margin-top: 15px;text-align: center;}
+.newkarma-core-banner-beforecontent.pull-left {margin-right: 15px;}
+.newkarma-core-banner-beforecontent.pull-right {margin-left: 15px;}
+.newkarma-core-banner-beforecontent,
+.newkarma-core-banner-insidecontent {margin-bottom: 15px;}
+.newkarma-core-banner-aftercontent {margin-bottom: 15px;}
+.newkarma-core-floatbanner {position: relative;}
+.newkarma-core-floatbanner-left {left: 50%;margin-left: -855px;position: fixed;overflow:hidden;top: 53px;width: 300px;}
+.newkarma-core-floatbanner-right {right: 50%;margin-right: -855px;position: fixed;overflow:hidden;top: 53px;width: 300px;}
+.inner-float-left {float:right;}
+.inner-float-right {float:left;}
+.newkarma-core-floatbanner-left img,
+.newkarma-core-floatbanner-right img {max-width: none !important;}
+.admin-bar .newkarma-core-floatbanner-left,
+.admin-bar .newkarma-core-floatbanner-right {top: 85px;}
+.gmr-no-sticky .newkarma-core-floatbanner-left,
+.gmr-no-sticky .newkarma-core-floatbanner-right {top: 15px;}
+.gmr-no-sticky.admin-bar .newkarma-core-floatbanner-left,
+.gmr-no-sticky.admin-bar .newkarma-core-floatbanner-right {top: 40px;}
+.newkarma-core-floatbanner-footer {z-index: 999;position: fixed;text-align: center;bottom: 0;left:0;right:0;}
+.newkarma-core-floatbanner button {text-align: center;font-size:12px;padding: 1px 5px;margin:0;z-index:9;background-color: #ebebeb;border:none;border-radius:0 !important;color: #333 !important;}
+.inner-float-left button {position: absolute; right: 0;}
+.inner-float-right button {position: absolute; left: 0;}
+.inner-floatbanner-bottom button {position: absolute; left: auto;right: auto;}
+@media (max-width: 1200px) {
+	.newkarma-core-floatbanner {
+		display: none;
+	}
+}
+
+.gmr-hidden {display: none !important;}
+
+.newkarma-core-fb-comments {margin: 0 -8px;}
+
+/* gallery */
+.newkarma-core-gallery {display:block;position: relative;margin-top:5px;margin-bottom:10px;}
+.newkarma-core-gallery ul {position:relative;padding:0;margin:0 -5px;font-size:0;}
+.newkarma-core-gallery ul li{display:inline-block;width:25%;margin:0;padding:0;}
+.newkarma-core-gallery ul li a{display:block;padding:0;margin:5px;}
+.newkarma-core-gallery ul li img{width:100%;}
+@media only screen and (max-width: 480px) {
+	.newkarma-core-gallery ul li {width:50%;}
+}
+
+.nolicense {text-align: center;margin-top: 20px;margin-bottom: 20px;font-size: 12px;color: #bbb;}

@@ -1,0 +1,61 @@
+
+---Downloaded files---
+The import files for: newsment were successfully downloaded!
+Initial max execution time = 36000
+Files info:
+Site URL = http://localhost/wordpress
+Data file = C:\laragon\www\wordpress/wp-content/uploads/2024/10/demo-content-import-file_2024-10-25__04-23-43.xml
+Widget file = C:\laragon\www\wordpress/wp-content/uploads/2024/10/demo-widgets-import-file_2024-10-25__04-23-43.json
+Customizer file = C:\laragon\www\wordpress/wp-content/uploads/2024/10/demo-customizer-import-file_2024-10-25__04-23-43.dat
+
+------
+Completed AJAX call number: 1
+
+
+---Importing content---
+
+Max execution time after content import = 300
+
+---Importing widgets---
+Main Sidebar : 
+
+Block - No Title - Imported
+CoverNews Social Contacts - No Title - Imported
+CoverNews Tabbed Posts - No Title - Imported
+
+Front-page Content Section : 
+
+Image - No Title - Imported
+CoverNews Double Categories Posts - No Title - Imported
+CoverNews Posts Carousel - No Title - Imported
+Image - No Title - Imported
+CoverNews Posts Slider - No Title - Imported
+CoverNews Posts Grid - No Title - Imported
+Image - No Title - Imported
+
+Front-page Sidebar Section : 
+
+CoverNews Author Info - No Title - Imported
+Block - No Title - Imported
+CoverNews Tabbed Posts - No Title - Imported
+CoverNews Social Contacts - No Title - Imported
+
+Footer First Section : 
+
+Text - AF themes - Imported
+
+Footer Second Section : 
+
+Recent Posts - No Title - Imported
+
+Footer Third Section : 
+
+Tag Cloud - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---templatespare/after_import---
+
